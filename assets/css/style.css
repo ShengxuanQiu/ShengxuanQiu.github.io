@@ -9,16 +9,6 @@
   --accent-soft: #f7eef3;
   --nav-bg: rgba(255,255,255,.96);
 }
-[data-theme="dark"] {
-  --bg: #121212;
-  --text: #e6e6e6;
-  --muted: #aaaaaa;
-  --border: #333333;
-  --accent: #e29abd;
-  --accent-soft: #2a1c24;
-  --nav-bg: rgba(18,18,18,.96);
-}
-
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
@@ -62,17 +52,6 @@ a:hover { text-decoration: underline; }
 }
 .nav-links a { color: var(--text); font-size: 14px; font-weight: 400; }
 .nav-links a.active { color: var(--accent); }
-.theme-btn {
-  border: 0;
-  background: transparent;
-  color: var(--muted);
-  width: 26px;
-  height: 30px;
-  padding: 0;
-  cursor: pointer;
-  font-size: 15px;
-}
-
 main { padding: 44px 0 76px; }
 
 .hero {
